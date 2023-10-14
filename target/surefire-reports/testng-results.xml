@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="37" passed="37" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-14T10:28:48 IST" name="Suite" finished-at="2023-10-14T10:29:17 IST" duration-ms="28525">
+    <groups>
+    </groups>
+    <test started-at="2023-10-14T10:28:48 IST" name="Test" finished-at="2023-10-14T10:29:17 IST" duration-ms="28525">
+      <class name="Com.QA.LoginTest.SwagLabsPagesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:28:48 IST" name="setup" finished-at="2023-10-14T10:29:03 IST" duration-ms="14634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginpageTitleTest()[pri:1, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:03 IST" name="LoginpageTitleTest" finished-at="2023-10-14T10:29:03 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginpageTitleTest -->
+        <test-method signature="LoginpageUrlTest()[pri:2, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:03 IST" name="LoginpageUrlTest" finished-at="2023-10-14T10:29:03 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginpageUrlTest -->
+        <test-method signature="verifyLoginLogoTest()[pri:3, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:03 IST" name="verifyLoginLogoTest" finished-at="2023-10-14T10:29:03 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginLogoTest -->
+        <test-method signature="verifyAcceptedUsernamePasswordTest()[pri:4, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:04 IST" name="verifyAcceptedUsernamePasswordTest" finished-at="2023-10-14T10:29:04 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcceptedUsernamePasswordTest -->
+        <test-method signature="performLoginAction()[pri:5, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:04 IST" name="performLoginAction" finished-at="2023-10-14T10:29:04 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLoginAction -->
+        <test-method signature="verifyProductPageTitleTest()[pri:6, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:05 IST" name="verifyProductPageTitleTest" finished-at="2023-10-14T10:29:05 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageTitleTest -->
+        <test-method signature="verifyProductPageUrlTest()[pri:7, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:05 IST" name="verifyProductPageUrlTest" finished-at="2023-10-14T10:29:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageUrlTest -->
+        <test-method signature="verifyProductPageLogoTest()[pri:8, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:06 IST" name="verifyProductPageLogoTest" finished-at="2023-10-14T10:29:06 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageLogoTest -->
+        <test-method signature="verifyProductFilterTest()[pri:9, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:06 IST" name="verifyProductFilterTest" finished-at="2023-10-14T10:29:06 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductFilterTest -->
+        <test-method signature="verifyProductFooterLinkTest()[pri:10, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:06 IST" name="verifyProductFooterLinkTest" finished-at="2023-10-14T10:29:06 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductFooterLinkTest -->
+        <test-method signature="verifyProductLinkTest()[pri:11, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:07 IST" name="verifyProductLinkTest" finished-at="2023-10-14T10:29:07 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductLinkTest -->
+        <test-method signature="verifyClickonProductLinkTest()[pri:12, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:07 IST" name="verifyClickonProductLinkTest" finished-at="2023-10-14T10:29:07 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickonProductLinkTest -->
+        <test-method signature="verifysecondProductPageTitleTest()[pri:13, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:08 IST" name="verifysecondProductPageTitleTest" finished-at="2023-10-14T10:29:08 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysecondProductPageTitleTest -->
+        <test-method signature="verifysecondProductPageUrlTest()[pri:14, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:08 IST" name="verifysecondProductPageUrlTest" finished-at="2023-10-14T10:29:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysecondProductPageUrlTest -->
+        <test-method signature="verifyProductPriceTest()[pri:15, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:08 IST" name="verifyProductPriceTest" finished-at="2023-10-14T10:29:08 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPriceTest -->
+        <test-method signature="ClickOncontinueShoppingButtonTest()[pri:16, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:08 IST" name="ClickOncontinueShoppingButtonTest" finished-at="2023-10-14T10:29:09 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOncontinueShoppingButtonTest -->
+        <test-method signature="VerifyProductinCartButton()[pri:17, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:09 IST" name="VerifyProductinCartButton" finished-at="2023-10-14T10:29:09 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductinCartButton -->
+        <test-method signature="clickOnCheckoutButton()[pri:18, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:09 IST" name="clickOnCheckoutButton" finished-at="2023-10-14T10:29:09 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCheckoutButton -->
+        <test-method signature="AddressPageTitleTest()[pri:19, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:09 IST" name="AddressPageTitleTest" finished-at="2023-10-14T10:29:09 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressPageTitleTest -->
+        <test-method signature="AddressPageUrlTest()[pri:20, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:10 IST" name="AddressPageUrlTest" finished-at="2023-10-14T10:29:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressPageUrlTest -->
+        <test-method signature="AddressPageLogoTest()[pri:21, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:10 IST" name="AddressPageLogoTest" finished-at="2023-10-14T10:29:10 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressPageLogoTest -->
+        <test-method signature="AddressPageHeaderTest()[pri:22, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:10 IST" name="AddressPageHeaderTest" finished-at="2023-10-14T10:29:10 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressPageHeaderTest -->
+        <test-method signature="AddressPageFooterLinkTest()[pri:23, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:11 IST" name="AddressPageFooterLinkTest" finished-at="2023-10-14T10:29:11 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressPageFooterLinkTest -->
+        <test-method signature="AddressPageDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:24, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:12 IST" name="AddressPageDataTest" data-provider="getdata" finished-at="2023-10-14T10:29:12 IST" duration-ms="384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Steve]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["454545"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressPageDataTest -->
+        <test-method signature="PaymentPageLogoTest()[pri:25, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:13 IST" name="PaymentPageLogoTest" finished-at="2023-10-14T10:29:13 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentPageLogoTest -->
+        <test-method signature="PaymentPageHeaderTest()[pri:26, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:13 IST" name="PaymentPageHeaderTest" finished-at="2023-10-14T10:29:13 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentPageHeaderTest -->
+        <test-method signature="PaymentPageFooterLinkTest()[pri:27, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:13 IST" name="PaymentPageFooterLinkTest" finished-at="2023-10-14T10:29:13 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentPageFooterLinkTest -->
+        <test-method signature="PaymentInformationTextTest()[pri:28, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:14 IST" name="PaymentInformationTextTest" finished-at="2023-10-14T10:29:14 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentInformationTextTest -->
+        <test-method signature="ShippingInformationTextTest()[pri:29, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:14 IST" name="ShippingInformationTextTest" finished-at="2023-10-14T10:29:14 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShippingInformationTextTest -->
+        <test-method signature="VerifyFInalOrderPriceTest()[pri:30, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:14 IST" name="VerifyFInalOrderPriceTest" finished-at="2023-10-14T10:29:14 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFInalOrderPriceTest -->
+        <test-method signature="ConfirmOrderPageTitleTest()[pri:31, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:15 IST" name="ConfirmOrderPageTitleTest" finished-at="2023-10-14T10:29:15 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmOrderPageTitleTest -->
+        <test-method signature="ConfirmOrderPageUrlTest()[pri:32, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:15 IST" name="ConfirmOrderPageUrlTest" finished-at="2023-10-14T10:29:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmOrderPageUrlTest -->
+        <test-method signature="ConfirmOrderPageLogoTest()[pri:33, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:15 IST" name="ConfirmOrderPageLogoTest" finished-at="2023-10-14T10:29:15 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmOrderPageLogoTest -->
+        <test-method signature="ConfirmOrderPageHeaderTest()[pri:34, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:15 IST" name="ConfirmOrderPageHeaderTest" finished-at="2023-10-14T10:29:15 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmOrderPageHeaderTest -->
+        <test-method signature="ConfirmOrderPageFooterLinkTest()[pri:35, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:16 IST" name="ConfirmOrderPageFooterLinkTest" finished-at="2023-10-14T10:29:16 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmOrderPageFooterLinkTest -->
+        <test-method signature="ConfirmOrderMessageTest()[pri:36, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:16 IST" name="ConfirmOrderMessageTest" finished-at="2023-10-14T10:29:16 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmOrderMessageTest -->
+        <test-method signature="ConfirmOrderDeliveryMessageTest()[pri:37, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:16 IST" name="ConfirmOrderDeliveryMessageTest" finished-at="2023-10-14T10:29:16 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmOrderDeliveryMessageTest -->
+        <test-method is-config="true" signature="closedown()[pri:0, instance:Com.QA.LoginTest.SwagLabsPagesTest@37e4d7bb]" started-at="2023-10-14T10:29:16 IST" name="closedown" finished-at="2023-10-14T10:29:17 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedown -->
+      </class> <!-- Com.QA.LoginTest.SwagLabsPagesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

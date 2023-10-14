@@ -1,0 +1,9 @@
+Com\QA\Pages\ProductPage.class
+Com\QA\Utilities\ExcelDataReader.class
+Com\QA\Endpoints\Routes.class
+Com\QA\Pages\PaymentPage.class
+Com\QA\Pages\ConfirmedOrderPage.class
+Com\QA\EventManger\ExtentReportManger.class
+Com\QA\Factory\PlawrightFactory.class
+Com\QA\Pages\LoginPage.class
+Com\QA\Pages\AddressPage.class

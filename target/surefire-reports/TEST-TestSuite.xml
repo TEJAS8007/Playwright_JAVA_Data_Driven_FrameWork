@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="30.916" tests="37" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Swag_Labs_PlayWright_DataDriven_FramweWork\target\test-classes;C:\Users\HP\OneDrive\Desktop\PlayWright\Swag_Labs_PlayWright_DataDriven_FramweWork\target\classes;C:\Users\HP\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\HP\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\HP\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\HP\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\HP\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\HP\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\HP\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\HP\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\HP\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\HP\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire11061147134107685110\surefirebooter-20231014102846580_3.jar C:\Users\HP\AppData\Local\Temp\surefire11061147134107685110 2023-10-14T10-28-45_624-jvmRun1 surefire-20231014102846580_1tmp surefire_0-20231014102846580_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Swag_Labs_PlayWright_DataDriven_FramweWork\target\test-classes;C:\Users\HP\OneDrive\Desktop\PlayWright\Swag_Labs_PlayWright_DataDriven_FramweWork\target\classes;C:\Users\HP\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\HP\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\HP\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\HP\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\HP\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\HP\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\HP\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\HP\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\HP\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\HP\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Swag_Labs_PlayWright_DataDriven_FramweWork"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire11061147134107685110\surefirebooter-20231014102846580_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Swag_Labs_PlayWright_DataDriven_FramweWork"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-11.0.16\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\apache-maven-3.9.4\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\node_modules;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\OneDrive\Desktop\jar\sikuli1\sikuli1\libs;C:\Users\HP\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\HP\AppData\Local\Programs\Python\Python311\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="LoginpageTitleTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.341">
+    <system-out><![CDATA[Browser Name : chromium
+[DEBUG] 2023-10-14 10:29:03.235 [main] SwagLabsPagesTest - Debugging.....
+LoginpageTitleTest started!
+[INFO ] 2023-10-14 10:29:03.365 [main] SwagLabsPagesTest - Login Page Title Matching ....
+[INFO ] 2023-10-14 10:29:03.365 [main] SwagLabsPagesTest - Login Page Title Matched ....
+LoginpageTitleTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="LoginpageUrlTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.164">
+    <system-out><![CDATA[LoginpageUrlTest started!
+[INFO ] 2023-10-14 10:29:03.694 [main] SwagLabsPagesTest - Login Page url Matching ....
+[INFO ] 2023-10-14 10:29:03.696 [main] SwagLabsPagesTest - Login Page url Matched ....
+LoginpageUrlTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyLoginLogoTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.24">
+    <system-out><![CDATA[verifyLoginLogoTest started!
+[INFO ] 2023-10-14 10:29:03.903 [main] SwagLabsPagesTest - Login Page logo Matching ....
+[INFO ] 2023-10-14 10:29:03.903 [main] SwagLabsPagesTest - Login Page logo Matched ....
+verifyLoginLogoTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyAcceptedUsernamePasswordTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.321">
+    <system-out><![CDATA[verifyAcceptedUsernamePasswordTest started!
+Accepted UserName And Password : 1
+[INFO ] 2023-10-14 10:29:04.156 [main] SwagLabsPagesTest - Verifying all Accepted Username Password
+Accepted usernames are:
+standard_user
+locked_out_user
+problem_user
+performance_glitch_user
+error_user
+
+Password for all users:
+secret_sauce
+verifyAcceptedUsernamePasswordTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="performLoginAction" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="1.016">
+    <system-out><![CDATA[performLoginAction started!
+[INFO ] 2023-10-14 10:29:04.985 [main] SwagLabsPagesTest - Login Action Performed Succesfully
+performLoginAction passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyProductPageTitleTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.361">
+    <system-out><![CDATA[verifyProductPageTitleTest started!
+[INFO ] 2023-10-14 10:29:05.479 [main] SwagLabsPagesTest - Product Page Title Matching ....
+[INFO ] 2023-10-14 10:29:05.480 [main] SwagLabsPagesTest - Product Page Title Matched ....
+verifyProductPageTitleTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyProductPageUrlTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.332">
+    <system-out><![CDATA[verifyProductPageUrlTest started!
+[INFO ] 2023-10-14 10:29:05.841 [main] SwagLabsPagesTest - Product Page url Matching ....
+[INFO ] 2023-10-14 10:29:05.841 [main] SwagLabsPagesTest - Product Page url Matched....
+verifyProductPageUrlTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyProductPageLogoTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.386">
+    <system-out><![CDATA[verifyProductPageLogoTest started!
+Swag Labs
+[INFO ] 2023-10-14 10:29:06.261 [main] SwagLabsPagesTest - Product Page logo Matching ....
+[INFO ] 2023-10-14 10:29:06.261 [main] SwagLabsPagesTest - Product Page logo Matching ....
+verifyProductPageLogoTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyProductFilterTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.356">
+    <system-out><![CDATA[verifyProductFilterTest started!
+Name (A to Z)
+Name (Z to A)
+Price (low to high)
+Price (high to low)
+[INFO ] 2023-10-14 10:29:06.625 [main] SwagLabsPagesTest - verified all product Filter text
+verifyProductFilterTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyProductFooterLinkTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.377">
+    <system-out><![CDATA[verifyProductFooterLinkTest started!
+Twitter
+Facebook
+LinkedIn
+[INFO ] 2023-10-14 10:29:06.983 [main] SwagLabsPagesTest - verified all footer links text
+verifyProductFooterLinkTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyProductLinkTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.385">
+    <system-out><![CDATA[verifyProductLinkTest started!
+Sauce Labs Backpackcarry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.$29.99Add to cart
+[INFO ] 2023-10-14 10:29:07.395 [main] SwagLabsPagesTest - verified all product links
+verifyProductLinkTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyClickonProductLinkTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.383">
+    <system-out><![CDATA[verifyClickonProductLinkTest started!
+[INFO ] 2023-10-14 10:29:07.873 [main] SwagLabsPagesTest - Click on Product Link
+verifyClickonProductLinkTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifysecondProductPageTitleTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.237">
+    <system-out><![CDATA[verifysecondProductPageTitleTest started!
+[INFO ] 2023-10-14 10:29:08.151 [main] SwagLabsPagesTest - Second Product Page title Matching ....
+[INFO ] 2023-10-14 10:29:08.151 [main] SwagLabsPagesTest - Second Product Page title Matched ....
+verifysecondProductPageTitleTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifysecondProductPageUrlTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.242">
+    <system-out><![CDATA[verifysecondProductPageUrlTest started!
+[INFO ] 2023-10-14 10:29:08.389 [main] SwagLabsPagesTest - Second Product Page url Matching ....
+[INFO ] 2023-10-14 10:29:08.389 [main] SwagLabsPagesTest - Second Product Page url Matched ....
+verifysecondProductPageUrlTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyProductPriceTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.29">
+    <system-out><![CDATA[verifyProductPriceTest started!
+Price of Product : $29.99
+[INFO ] 2023-10-14 10:29:08.664 [main] SwagLabsPagesTest - Product price Matching ....
+[INFO ] 2023-10-14 10:29:08.665 [main] SwagLabsPagesTest - Product price Matched....
+verifyProductPriceTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="ClickOncontinueShoppingButtonTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.321">
+    <system-out><![CDATA[ClickOncontinueShoppingButtonTest started!
+[INFO ] 2023-10-14 10:29:09.097 [main] SwagLabsPagesTest - Click on AddToCart Button
+ClickOncontinueShoppingButtonTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyProductinCartButton" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.189">
+    <system-out><![CDATA[VerifyProductinCartButton started!
+[INFO ] 2023-10-14 10:29:09.285 [main] SwagLabsPagesTest - Product in cart Matching ....
+[INFO ] 2023-10-14 10:29:09.285 [main] SwagLabsPagesTest - Product in cart Matched ....
+VerifyProductinCartButton passed!
+]]></system-out>
+  </testcase>
+  <testcase name="clickOnCheckoutButton" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.346">
+    <system-out><![CDATA[clickOnCheckoutButton started!
+[INFO ] 2023-10-14 10:29:09.558 [main] SwagLabsPagesTest - click on checkout Button
+clickOnCheckoutButton passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddressPageTitleTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.271">
+    <system-out><![CDATA[AddressPageTitleTest started!
+[INFO ] 2023-10-14 10:29:09.830 [main] SwagLabsPagesTest - Address Page Title Matching
+[INFO ] 2023-10-14 10:29:09.833 [main] SwagLabsPagesTest - Address Page Title Matched
+AddressPageTitleTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddressPageUrlTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.276">
+    <system-out><![CDATA[AddressPageUrlTest started!
+[INFO ] 2023-10-14 10:29:10.100 [main] SwagLabsPagesTest - Address Page url Matching
+[INFO ] 2023-10-14 10:29:10.100 [main] SwagLabsPagesTest - Address Page url Matched
+AddressPageUrlTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddressPageLogoTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.405">
+    <system-out><![CDATA[AddressPageLogoTest started!
+Address Page Logo :Swag Labs
+[INFO ] 2023-10-14 10:29:10.422 [main] SwagLabsPagesTest - Address Page logo Matching
+[INFO ] 2023-10-14 10:29:10.422 [main] SwagLabsPagesTest - Address Page logo Matched
+AddressPageLogoTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddressPageHeaderTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.354">
+    <system-out><![CDATA[AddressPageHeaderTest started!
+Address Page Header :Checkout: Your Information
+[INFO ] 2023-10-14 10:29:10.828 [main] SwagLabsPagesTest - Address Page Header Matching
+[INFO ] 2023-10-14 10:29:10.828 [main] SwagLabsPagesTest - Address Page Header Matched
+AddressPageHeaderTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddressPageFooterLinkTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.297">
+    <system-out><![CDATA[AddressPageFooterLinkTest started!
+Twitter
+Facebook
+LinkedIn
+[INFO ] 2023-10-14 10:29:11.186 [main] SwagLabsPagesTest - verified All Footer Links
+AddressPageFooterLinkTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="AddressPageDataTest[Steve, smith, &quot;454545&quot;](1)" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.625">
+    <system-out><![CDATA[AddressPageDataTest started!
+[INFO ] 2023-10-14 10:29:12.783 [main] SwagLabsPagesTest - Successfullt Sent Address Values
+AddressPageDataTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="PaymentPageLogoTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.338">
+    <system-out><![CDATA[PaymentPageLogoTest started!
+Address Page Logo :Swag Labs
+[INFO ] 2023-10-14 10:29:13.071 [main] SwagLabsPagesTest - Payement Page logo Matching
+[INFO ] 2023-10-14 10:29:13.071 [main] SwagLabsPagesTest - Payement Page logo Matched
+PaymentPageLogoTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="PaymentPageHeaderTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.315">
+    <system-out><![CDATA[PaymentPageHeaderTest started!
+Address Page Header :Checkout: Overview
+[INFO ] 2023-10-14 10:29:13.418 [main] SwagLabsPagesTest - Payement Page Header Matching
+[INFO ] 2023-10-14 10:29:13.418 [main] SwagLabsPagesTest - Payement Page Header Matched
+PaymentPageHeaderTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="PaymentPageFooterLinkTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.325">
+    <system-out><![CDATA[PaymentPageFooterLinkTest started!
+Twitter
+Facebook
+LinkedIn
+[INFO ] 2023-10-14 10:29:13.729 [main] SwagLabsPagesTest - Verified all Footer Links
+PaymentPageFooterLinkTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="PaymentInformationTextTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.381">
+    <system-out><![CDATA[PaymentInformationTextTest started!
+SauceCard #31337
+[INFO ] 2023-10-14 10:29:14.110 [main] SwagLabsPagesTest - Payement Information Matching
+[INFO ] 2023-10-14 10:29:14.110 [main] SwagLabsPagesTest - Payement Information Matched
+PaymentInformationTextTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="ShippingInformationTextTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.355">
+    <system-out><![CDATA[ShippingInformationTextTest started!
+Free Pony Express Delivery!
+[INFO ] 2023-10-14 10:29:14.494 [main] SwagLabsPagesTest - Shipping Information Matching
+[INFO ] 2023-10-14 10:29:14.495 [main] SwagLabsPagesTest - Shipping Information Matched
+ShippingInformationTextTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyFInalOrderPriceTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.344">
+    <system-out><![CDATA[VerifyFInalOrderPriceTest started!
+[INFO ] 2023-10-14 10:29:14.981 [main] SwagLabsPagesTest - Final product price Matching
+[INFO ] 2023-10-14 10:29:14.981 [main] SwagLabsPagesTest - Final product price Matched
+VerifyFInalOrderPriceTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="ConfirmOrderPageTitleTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.211">
+    <system-out><![CDATA[ConfirmOrderPageTitleTest started!
+[INFO ] 2023-10-14 10:29:15.193 [main] SwagLabsPagesTest - ConfirmOrder Page Title Matching
+[INFO ] 2023-10-14 10:29:15.193 [main] SwagLabsPagesTest - ConfirmOrder Page Title Matched
+ConfirmOrderPageTitleTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="ConfirmOrderPageUrlTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.198">
+    <system-out><![CDATA[ConfirmOrderPageUrlTest started!
+[INFO ] 2023-10-14 10:29:15.397 [main] SwagLabsPagesTest - ConfirmOrder Page url Matching
+[INFO ] 2023-10-14 10:29:15.397 [main] SwagLabsPagesTest - ConfirmOrder Page url Matched
+ConfirmOrderPageUrlTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="ConfirmOrderPageLogoTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.215">
+    <system-out><![CDATA[ConfirmOrderPageLogoTest started!
+[INFO ] 2023-10-14 10:29:15.618 [main] SwagLabsPagesTest - ConfirmOrder Page logo Matching
+[INFO ] 2023-10-14 10:29:15.618 [main] SwagLabsPagesTest - ConfirmOrder Page logo Matched
+ConfirmOrderPageLogoTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="ConfirmOrderPageHeaderTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.19">
+    <system-out><![CDATA[ConfirmOrderPageHeaderTest started!
+[INFO ] 2023-10-14 10:29:15.840 [main] SwagLabsPagesTest - ConfirmOrder Page Header Matching
+[INFO ] 2023-10-14 10:29:15.840 [main] SwagLabsPagesTest - ConfirmOrder Page Headers Matched
+ConfirmOrderPageHeaderTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="ConfirmOrderPageFooterLinkTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.21">
+    <system-out><![CDATA[ConfirmOrderPageFooterLinkTest started!
+Twitter
+Facebook
+LinkedIn
+[INFO ] 2023-10-14 10:29:16.037 [main] SwagLabsPagesTest - Verified all Footer Links
+ConfirmOrderPageFooterLinkTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="ConfirmOrderMessageTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.216">
+    <system-out><![CDATA[ConfirmOrderMessageTest started!
+Thank you for your order!
+[INFO ] 2023-10-14 10:29:16.258 [main] SwagLabsPagesTest - ConfirmOrder Page message Matching
+[INFO ] 2023-10-14 10:29:16.259 [main] SwagLabsPagesTest - ConfirmOrder Page message Matched
+ConfirmOrderMessageTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="ConfirmOrderDeliveryMessageTest" classname="Com.QA.LoginTest.SwagLabsPagesTest" time="0.23">
+    <system-out><![CDATA[ConfirmOrderDeliveryMessageTest started!
+Your order has been dispatched, and will arrive just as fast as the pony can get there!
+[INFO ] 2023-10-14 10:29:16.479 [main] SwagLabsPagesTest - ConfirmOrder Page Deliverymessage Matching
+[INFO ] 2023-10-14 10:29:16.479 [main] SwagLabsPagesTest - ConfirmOrder Page Deliverymessage Matched
+ConfirmOrderDeliveryMessageTest passed!
+]]></system-out>
+  </testcase>
+</testsuite>
